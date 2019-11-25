@@ -1,0 +1,17 @@
+{
+  "name": "Customer",  // See Top-level properties below
+  "description": "A Customer model representing our customers.",
+  "base": "User",
+  "idInjection": false,
+  "strict": true,
+  "options": { ... }, // See Options below - can also declare as top-level properties
+  "properties": { ... }, // See Properties below
+  "hidden": [...], // See Hidden properties below
+  "validations": [...],  // See Validations below
+  "relations": {...},  // See Relations below
+  "acls": [...],  // See ACLs below
+  "scopes": {...},  // See Scopes below
+  "indexes" : { ...}, // See Indexes below
+  "methods": [...],  // See Methods below - New for LB2.0 - Remoting metadata
+  "http": {"path": "/foo/mypath"}
+}
